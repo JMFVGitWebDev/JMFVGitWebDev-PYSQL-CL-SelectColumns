@@ -1,0 +1,15 @@
+{
+  "type": "python",
+  "testFiles": [
+    {
+      "path": "tests/lab_test.py",
+      "testCases": [
+        {
+          "methodName": "test_filter_columns",
+          "label": "Verify selecting only the firstname column",
+          "description": "Runs problem1(), which should return only the firstname column from the site_user table. Compares the result to the expected list of User objects with only firstname set."
+        }
+      ]
+    }
+  ]
+}
